@@ -1,0 +1,23 @@
+ .button {
+    background: #FFF;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  .button:hover {
+    animation-name: animation-style1;
+    animation-timing-function: linear;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    background-color: rgb(255, 255, 255);
+  }
+  @keyframes animation-style1 {
+    0% {
+      box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 0px;
+    }
+    70% {
+      box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 10px;
+    }
+    100% {
+      box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px;
+    }
+  }
